@@ -2,7 +2,8 @@
 ## 3.2.10 (2026-10-13)
 **Fix**
 - `Soft Bitrate Cap` under Bitrate Options wasn't working, now correctly boosts "Low Bitrate" streams by 10000 SEL score
-- Formatters doubled up on SeaDex tags, now fixed
+- Tamtaro formatters were doubling up on SeaDex tags, now fixed
+
 **New**
 - Added "Tamtaro (Default Horizontal)" formatter. 
   - Same as Default, except the Name Template section is now one continuous horizontal line, which looks nicer on some (mobile) clients
