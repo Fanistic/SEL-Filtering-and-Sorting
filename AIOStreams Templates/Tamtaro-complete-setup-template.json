@@ -1577,7 +1577,7 @@
       {
         "id": "deviceExcludePenalize",
         "name": "Penalize Instead of Exclude",
-        "description": "Apply a -10,000 SEL score to selected Device Specific Exclusions instead of removing them outright. The Low SEL Score logic will retain these negative-scored results only when at least 10 positive-scored results exist; otherwise, they are hidden.",
+        "description": "Apply a -10,000 SEL score to selected Device Specific Exclusions instead of removing them outright. The Low SEL Score logic will retain these negative-scored results only when less than 10 positive-scored results exist; otherwise, they are hidden.",
         "type": "boolean",
         "required": false,
         "advanced": true,
